@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 HTML</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <header>
+        <h1>ServiceCloud</h1>
+        <h2>Bienvenidos a nuestro lugar en el mundo</h2>
+    </header>
+
+    <main>
+        <section>
+            <p id="parrafo1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt 
+                minima rerum eaque quidem vel? Adipisci ad dolor quod eaque! Culpa ullam error 
+                numquam cumque quasi officia saepe dignissimos magni, illum quae incidunt quia 
+                et exercitationem, praesentium fugiat ea beatae fuga, corporis veniam placeat 
+                earum architecto eaque voluptate officiis! Magni iste quas perferendis, 
+                quisquam eaque accusamus ratione, ab earum, animi ullam possimus culpa dolor qui
+                nesciunt mollitia. Odio dolor impedit a ab eligendi labore dolorem, laudantium beatae 
+                ducimus dolores maxime dicta ipsam! Nostrum aperiam quam a sequi similique ducimus vero, 
+                quaerat molestias sint nobis voluptatum consequuntur rerum et molestiae odio numquam?</p>
+        </section>
+
+        <section>
+            <h3>¿Qué servicio brindamos?</h3>
+            <ul class="product-grid">
+                <li class="product-item">
+                    <img src="IMAGES/imagen1.jpeg" alt="Producto ">
+                    <p> Producto de Servicio Digital </p>
+                </li>
+                <li class="product-item">
+                    <img src="IMAGES/imagen2.jpeg" alt="Producto ">
+                    <p> Producto de Servicio Digital </p>
+                </li>
+                <li class="product-item">
+                    <img src="IMAGES/imagen3.jpeg" alt="Producto ">
+                    <p> Producto de Servicio Digital </p>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Formulario de contacto</h2>
+            <form action="https://postman-echo.com/post" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Ingrese su nombre" name="nombre" required><br><br>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Ingrese su mail" name="email" required><br><br>
+        
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" placeholder="Ingrese su mensaje" name="mensaje" rows="5" required></textarea><br><br>
+        
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <footer>
+            <div class="footer-content">
+                <div class="rights">© 2023 Todos los derechos reservados</div>
+                <div class="contact-info">
+                    <p>Contacto: correo@ejemplo.com</p>
+                    <p>Teléfono: +1 234 567 890</p>
+                </div>
+            </div>
+        </footer>
+    </footer>
+</body>
+</html>
